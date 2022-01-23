@@ -16,7 +16,14 @@ struct ContentView: View {
             mainColor.ignoresSafeArea()
             VStack {
                 Text("1 / 10")
+                    .font(.callout)
+                    .multilineTextAlignment(.leading)
+                    .padding()
                 Text("What was the first computer bug?")
+                    .font(.largeTitle)
+                    .bold()
+                    .multilineTextAlignment(.leading)
+                Spacer()
             }
         }
         .foregroundColor(.white)
