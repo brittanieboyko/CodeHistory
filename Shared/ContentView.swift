@@ -13,8 +13,13 @@ let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
 struct ContentView: View {
     var body: some View {
         ZStack {
-            mainColor
+            mainColor.ignoresSafeArea()
+            VStack {
+                Text("1 / 10")
+                Text("What was the first computer bug?")
+            }
         }
+        .foregroundColor(.white)
     }
 }
 
