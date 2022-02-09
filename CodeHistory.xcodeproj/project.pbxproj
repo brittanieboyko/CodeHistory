@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC769D0F27B41C500037612D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC769D0E27B41C500037612D /* Question.swift */; };
+		BC769D1027B41C500037612D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC769D0E27B41C500037612D /* Question.swift */; };
 		BCAE8F5027977D8400A253AF /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE8F4F27977D8400A253AF /* Tests_iOS.swift */; };
 		BCAE8F5227977D8400A253AF /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE8F5127977D8400A253AF /* Tests_iOSLaunchTests.swift */; };
 		BCAE8F5C27977D8400A253AF /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE8F5B27977D8400A253AF /* Tests_macOS.swift */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC769D0E27B41C500037612D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		BCAE8F3727977D8200A253AF /* CodeHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHistoryApp.swift; sourceTree = "<group>"; };
 		BCAE8F3827977D8200A253AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCAE8F3927977D8400A253AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 			children = (
 				BCAE8F3727977D8200A253AF /* CodeHistoryApp.swift */,
 				BCAE8F3827977D8200A253AF /* ContentView.swift */,
+				BC769D0E27B41C500037612D /* Question.swift */,
 				BCAE8F3927977D8400A253AF /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC769D0F27B41C500037612D /* Question.swift in Sources */,
 				BCAE8F6127977D8400A253AF /* ContentView.swift in Sources */,
 				BCAE8F5F27977D8400A253AF /* CodeHistoryApp.swift in Sources */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC769D1027B41C500037612D /* Question.swift in Sources */,
 				BCAE8F6227977D8400A253AF /* ContentView.swift in Sources */,
 				BCAE8F6027977D8400A253AF /* CodeHistoryApp.swift in Sources */,
 			);
