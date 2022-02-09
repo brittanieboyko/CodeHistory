@@ -25,7 +25,7 @@ struct ContentView: View {
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
-                Text("What was the first computer bug?")
+                Text(question.questionText)
                     .font(.largeTitle)
                     .bold()
                     .multilineTextAlignment(.leading)
@@ -34,42 +34,42 @@ struct ContentView: View {
                     Button(action: {
                         print("Tapped on Choice 1")
                     }, label: {
-                        Text("Ant")
+                        Text(question.possibleAnswers[0])
                             .font(.body)
                             .bold()
                             .multilineTextAlignment(.center)
                             .padding()
-                            .border(.white, width: 4)
+                            .border(accentColor, width: 4)
                     })
                     Button(action: {
                         print("Tapped on Choice 2")
                     }, label: {
-                        Text("Beetle")
+                        Text(question.possibleAnswers[1])
                             .font(.body)
                             .bold()
                             .multilineTextAlignment(.center)
                             .padding()
-                            .border(.white, width: 4)
+                            .border(accentColor, width: 4)
                     })
                     Button(action: {
                         print("Tapped on Choice 3")
                     }, label: {
-                        Text("Moth")
+                        Text(question.possibleAnswers[2])
                             .font(.body)
                             .bold()
                             .multilineTextAlignment(.center)
                             .padding()
-                            .border(.white, width: 4)
+                            .border(accentColor, width: 4)
                     })
                     Button(action: {
                         print("Tapped on Choice 4")
                     }, label: {
-                        Text("Fly")
+                        Text(question.possibleAnswers[3])
                             .font(.body)
                             .bold()
                             .multilineTextAlignment(.center)
                             .padding()
-                            .border(.white, width: 4)
+                            .border(accentColor, width: 4)
                     })
                 }
                            
