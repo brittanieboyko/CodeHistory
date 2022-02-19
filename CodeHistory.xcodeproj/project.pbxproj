@@ -92,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC5B399D27C08C36000DB3B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC769D0E27B41C500037612D /* Question.swift */,
+				BC5B399A27C08BE8000DB3B8 /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC5B399E27C08C7C000DB3B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE8F3827977D8200A253AF /* ContentView.swift */,
+				BC769D1127B74BF60037612D /* ChoiceTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BCAE8F3127977D8200A253AF = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +124,9 @@
 		BCAE8F3627977D8200A253AF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BC5B399E27C08C7C000DB3B8 /* Views */,
+				BC5B399D27C08C36000DB3B8 /* Models */,
 				BCAE8F3727977D8200A253AF /* CodeHistoryApp.swift */,
-				BCAE8F3827977D8200A253AF /* ContentView.swift */,
-				BC5B399A27C08BE8000DB3B8 /* Game.swift */,
-				BC769D1127B74BF60037612D /* ChoiceTextView.swift */,
-				BC769D0E27B41C500037612D /* Question.swift */,
 				BCAE8F3927977D8400A253AF /* Assets.xcassets */,
 			);
 			path = Shared;
