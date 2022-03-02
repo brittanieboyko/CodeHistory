@@ -14,7 +14,7 @@ struct GameView: View {
         possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"],
         correctAnswerIndex: 2)
     
-    @State var mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
+    @State var mainColor = GameColor.main
     
     var body: some View {
         ZStack {
@@ -33,7 +33,7 @@ struct GameView: View {
                     ForEach(0..<question.possibleAnswers.count) { answerIndex in
                         Button(action: {
                           print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
-                            mainColor = answerIndex == question.correctAnswerIndex ? .green : .red
+                            mainColor = answerIndex == question.correctAnswerIndex ? GameColor.correctGuess : GameColor.incorrectGuess
                         }, label: {
                           ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                         })
