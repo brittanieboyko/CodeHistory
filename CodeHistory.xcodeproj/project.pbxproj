@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC5B399B27C08BE8000DB3B8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B399A27C08BE8000DB3B8 /* Game.swift */; };
 		BC5B399C27C08BE8000DB3B8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B399A27C08BE8000DB3B8 /* Game.swift */; };
+		BC5B39CB27CFC243000DB3B8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B39CA27CFC243000DB3B8 /* WelcomeView.swift */; };
 		BC769D0F27B41C500037612D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC769D0E27B41C500037612D /* Question.swift */; };
 		BC769D1027B41C500037612D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC769D0E27B41C500037612D /* Question.swift */; };
 		BC769D1227B74BF60037612D /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC769D1127B74BF60037612D /* ChoiceTextView.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		BC5B399A27C08BE8000DB3B8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		BC5B39CA27CFC243000DB3B8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BC769D0E27B41C500037612D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		BC769D1127B74BF60037612D /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		BCAE8F3727977D8200A253AF /* CodeHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeHistoryApp.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		BC5B399E27C08C7C000DB3B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BC5B39CA27CFC243000DB3B8 /* WelcomeView.swift */,
 				BCAE8F3827977D8200A253AF /* ContentView.swift */,
 				BC769D1127B74BF60037612D /* ChoiceTextView.swift */,
 			);
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC769D0F27B41C500037612D /* Question.swift in Sources */,
+				BC5B39CB27CFC243000DB3B8 /* WelcomeView.swift in Sources */,
 				BC5B399B27C08BE8000DB3B8 /* Game.swift in Sources */,
 				BCAE8F6127977D8400A253AF /* ContentView.swift in Sources */,
 				BC769D1227B74BF60037612D /* ChoiceTextView.swift in Sources */,
