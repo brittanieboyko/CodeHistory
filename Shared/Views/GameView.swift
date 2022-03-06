@@ -14,13 +14,13 @@ struct GameView: View {
         possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"],
         correctAnswerIndex: 2)
     
-    @State var mainColor = GameColor.main
+    @StateObject var viewModel = GameViewModel()
     
     var body: some View {
         ZStack {
-            mainColor.ignoresSafeArea()
+            GameColor.main.ignoresSafeArea()
             VStack {
-                Text("1 / 10")
+                Text(viewModel.questionProgressText)
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
@@ -33,7 +33,6 @@ struct GameView: View {
                     ForEach(0..<question.possibleAnswers.count) { answerIndex in
                         Button(action: {
                           print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
-                            mainColor = answerIndex == question.correctAnswerIndex ? GameColor.correctGuess : GameColor.incorrectGuess
                         }, label: {
                           ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                         })
