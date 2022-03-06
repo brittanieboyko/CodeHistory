@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2260F227D45B10009B1892 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2260F127D45B10009B1892 /* GameViewModel.swift */; };
 		BC5B399B27C08BE8000DB3B8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B399A27C08BE8000DB3B8 /* Game.swift */; };
 		BC5B399C27C08BE8000DB3B8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B399A27C08BE8000DB3B8 /* Game.swift */; };
 		BC5B39CB27CFC243000DB3B8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B39CA27CFC243000DB3B8 /* WelcomeView.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC2260F127D45B10009B1892 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		BC5B399A27C08BE8000DB3B8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BC5B39CA27CFC243000DB3B8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		BC5B39CC27CFC6F3000DB3B8 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2260F027D45AEF009B1892 /* GameViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC2260F127D45B10009B1892 /* GameViewModel.swift */,
+			);
+			path = GameViewModel;
+			sourceTree = "<group>";
+		};
 		BC5B399D27C08C36000DB3B8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +143,7 @@
 		BCAE8F3627977D8200A253AF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BC2260F027D45AEF009B1892 /* GameViewModel */,
 				BC5B399E27C08C7C000DB3B8 /* Views */,
 				BC5B399D27C08C36000DB3B8 /* Models */,
 				BCAE8F3727977D8200A253AF /* CodeHistoryApp.swift */,
@@ -336,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2260F227D45B10009B1892 /* GameViewModel.swift in Sources */,
 				BC769D0F27B41C500037612D /* Question.swift in Sources */,
 				BC5B39CB27CFC243000DB3B8 /* WelcomeView.swift in Sources */,
 				BC5B399B27C08BE8000DB3B8 /* Game.swift in Sources */,
