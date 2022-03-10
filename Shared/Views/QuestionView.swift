@@ -28,6 +28,7 @@ struct QuestionView: View {
                         ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
                             .background(viewModel.color(forOptionIndex: answerIndex))
                     }
+                    .disabled(viewModel.quessWasMade)
                 }
             }
             if viewModel.quessWasMade {
