@@ -9,6 +9,7 @@ import SwiftUI
 
 struct QuestionView: View {
     
+    @EnvironmentObject var viewModel: GameViewModel
     let question: Question
     
     var body: some View {
